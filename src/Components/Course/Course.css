@@ -1,0 +1,22 @@
+/* .min-div{
+    display:flex;
+} */
+.card {
+    width: 320px;
+    min-height: 576px;
+    display: inline-flex;
+    box-shadow: 0px 0px 10px lightgrey;
+    transition: .9s;
+}
+.card:hover {
+    transform: translate(10px);
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: #faebd700;
+    border-top: none;
+}
